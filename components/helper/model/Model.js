@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { showModel, hideModel } from './../../../keyboard-shortcut/keys';
+import { showModel, hideModel } from './../../../keyboard-shortcut/keys';
 
 export default function Model(props) {
   const overlay = {
@@ -28,10 +28,10 @@ export default function Model(props) {
   };
 
   const [model, setModel] = useState();
-  const hideModel = () => {
+  hideModel = () => {
     setModel(false);
   };
-  const showModel = () => {
+  showModel = () => {
     setModel(true);
   };
   return (

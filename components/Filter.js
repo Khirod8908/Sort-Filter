@@ -24,7 +24,6 @@ const Filter = () => {
       return a.price > b.price ? 1 : -1;
     }
   });
-  console.log(sortRes);
 
   return (
     <div>
