@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+// import { showModel, hideModel } from './../../../keyboard-shortcut/keys';
+
 export default function Model(props) {
   const overlay = {
     width: '100vw',
@@ -57,9 +59,9 @@ export default function Model(props) {
                   <path
                     d="M7.25 0.75L0.75 7.25M0.75 0.75L7.25 7.25"
                     stroke="black"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
